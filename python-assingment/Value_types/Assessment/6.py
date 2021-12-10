@@ -1,0 +1,11 @@
+# 6.Take the sentence: All work and no play makes Jack a dull boy. Store each word in a separate variable, then print out the sentence on one line using print'''
+a="All"
+b=" work"
+c=" and"
+d=" no"
+e=" play "
+f="makes "
+g="Jack a "
+h="dull"
+i=" boy."
+print(a+b+c+d+e+f+g+h+i)
