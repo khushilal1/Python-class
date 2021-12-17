@@ -1,8 +1,9 @@
-l1=(1,3,4,5)
 
-x=int(input("Enter the element \n"))
 
-if(x in l1):
-    print(f"{x} is in the given tuple:{l1}")
+l1=(1,23,4,5,5,6,7,7,8,9)
+s=set(l1)
+if(len(l1)==len(s)):
+    print("the given tuple are not distinct tuple")
+
 else:
-    print(f"Entered element doesnot found in the tuple :{l1}")
+    print("the given tuple are distinct tuple")
