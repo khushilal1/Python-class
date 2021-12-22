@@ -126,7 +126,7 @@ print(count)
 
 '''
 rev=0
-n=int(input("Ente the value to  be checkpalindrome or not"))
+n=int(input("Ente the value to  be checkpalindrome number  or not"))
 while(n>0):
     r=n%10
     rev=10*rev+r
