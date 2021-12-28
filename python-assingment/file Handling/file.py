@@ -113,3 +113,6 @@ f=open("java.txt","w")
 f.write("mohan")
 f.write("yadav")
 f.close()
+
+
+# File object variables
