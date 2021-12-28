@@ -111,3 +111,53 @@ obj1=Car()
 #calling funccction
 obj1.start()
 # print(obj1.start())
+class animal:
+    print("Animal")
+
+
+    def cow(self):
+        print("This is cow")
+
+    def dog(self):
+        print("I am dog  of the created of  above class")
+
+
+obj1=animal()
+obj1.cow()
+obj1.dog()
+
+
+
+class Friend():
+    def __init__(self,name,age,address):
+        self.name=name
+        self.age=age
+        self.address=address
+
+    def namecaller(self,name):
+        # self.place=place
+        print(self.name)
+        print(self.age)
+        print(self.address)
+
+    def __del__(self):
+        print("hllo")
+obj1=Friend("khushila",20,"dharan")
+obj1.namecaller()
+
+
+
+
+#acessing bothe the instant variable and  class variable
+
+class parrot:
+    species="bird"
+
+    def __init__(self,name,age) -> None:
+        
+        self.name=name
+        self.age=age
+        print(self.name)
+        print(self.age)
+blue=parrot("blue",34)
+print(blue.__class__.species)  #acesssing the class variable
