@@ -1,3 +1,4 @@
+'''
 # File Handling
 # txt file
 f=open("file.txt2",mode="w")
@@ -96,16 +97,11 @@ print(r)
 print(x)
 
 
-if os.path.isfile("java.tx"):
-    f=open("java.txt","r")
+# if os.path.isfile("java.tx"):
+#     f=open("java.txt","r")
 
-else:
-    print("file not found")
-
-
-
-
-
+# else:
+#     print("file not found")
 
 # Writing data to a file
 # write()
@@ -115,4 +111,11 @@ f.write("yadav")
 f.close()
 
 
-# File object variables
+# File object variables'''
+
+
+f=open("file1.txt",mode="r")
+# f.tell()
+data=f.read(9)
+
+print(data)
